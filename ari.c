@@ -22,7 +22,7 @@ string ari(string s)
      if(*(s+i)==' ')   
        { word++; }
        
-     if( *(s+i)=='.' || *(s+i)=='?') 
+     if( *(s+i)=='.' || *(s+i)=='?' ||  *(s+i)=='?') 
        { sentence++; }     
   }
   res=(4.71*(letter/word)+(0.5*( word/sentence))-21.43);
